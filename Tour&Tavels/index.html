@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creative Inc.</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.fill  li a {
+  transition: all 2s;
+}
+
+ul.fill li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+ul.fill li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+ul.fill li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+ul.fill  li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 53px;
+  text-decoration: none;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+ul.fill li a {
+  position: relative;
+}
+
+li a:hover {
+  background-color: hotpink;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+	
+	
+<div>
+ <ul class="fill">
+  <li><a class="active" href="tour.html">Tours</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="index-2.html"><!-- svg --><img width="121" height="79"  src="img/travel2.png"/>
+      <br><a href="index-2.html">TOURS & TRAVEL</a> 
+      </a></li>
+  <li><a href="private-tours.html">Private Tours</a></li>
+  <li><a href="faq.html">FAQ</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul> 
+</div>
+</header>
+
+<section class="home-hero parallax--bg">
+	<div class="container">
+		<h1 class="title parallax--box">Making things looks great <span>for companies who make great stuff</span>
+		</h1>
+		<a href="" class="button button-accent">See Our Work</a>
+	</div>
+</section>
+
+<div class="container">
+	<section class="home-about">
+
+		<div class="home-about-textbox parallax--box">
+			<h1>Who we are</h1>
+			<p>Sit by the fire drink water out of the faucet hide head under blanket so no one can see cat is love, cat is life. Knock dish off table eating always hungry so favor packaging over toy. </p>
+			<p><strong>Rub face on owner.</strong> Peer out window, chatter at birds, lure them to mouth. Chase ball of string eat a plant, kill a hand, i am the best have secret plans.</p>
+		</div>
+
+	</section>
+</div>
+
+
+<section class="portfolio">
+	<h1>Some of our Tours</h1>
+
+	<!-- portfolio item 01 -->
+	<figure class="port-item">
+		<img src="img/portfolio-06.jpg" alt="portfolio item">
+		<figcaption class="port-desc">
+			<p>Project title</p>
+			<a href="" class="button button-accent button-small">Project details</a>
+		</figcaption>
+	</figure>
+
+	<!-- portfolio item 02 -->
+	<figure class="port-item">
+		<img src="img/portfolio-04.jpg" alt="portfolio item">
+		<figcaption class="port-desc">
+			<p>Project title</p>
+			<a href="" class="button button-accent button-small">Project details</a>
+		</figcaption>
+	</figure>
+
+	<!-- portfolio item 03 -->
+	<figure class="port-item">
+		<img src="img/portfolio-03.jpg" alt="portfolio item">
+		<figcaption class="port-desc">
+			<p>Project title</p>
+			<a href="" class="button button-accent button-small">Project details</a>
+		</figcaption>
+	</figure>
+
+	<!-- portfolio item 04 -->
+	<figure class="port-item">
+		<img src="img/portfolio-10.jpg" alt="portfolio item">
+		<figcaption class="port-desc">
+			<p>Project title</p>
+			<a href="" class="button button-accent button-small">Project details</a>
+		</figcaption>
+	</figure>
+
+	<!-- portfolio item 05 -->
+	<figure class="port-item">
+		<img src="img/portfolio-09.jpg" alt="portfolio item">
+		<figcaption class="port-desc">
+			<p>Project title</p>
+			<a href="" class="button button-accent button-small">Project details</a>
+		</figcaption>
+	</figure>
+
+	<!-- portfolio item 06 -->
+	<figure class="port-item">
+		<img src="img/portfolio-07.jpg" alt="portfolio item">
+		<figcaption class="port-desc">
+			<p>Project title</p>
+			<a href="" class="button button-accent button-small">Project details</a>
+		</figcaption>
+	</figure>
+
+</section>
+
+<section class="cta">
+	<div class="container">
+		<h1 class="title title-cta">Like what you see?
+			 <span>Then what are you waiting for?</span>
+		</h1>
+		<a href="" class="button button-dark">Hire us</a>
+	</div>
+</section>
+
+
+
+
+<footer>
+	<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+     <a href="index-2.html"><img width="145" height="65" src="img/travel1.jpg"/></a> 
+     <p>Lalechet</p>
+     <p>Tours &amp; Travel</p>
+    </div>
+    <div class="col-sm-2">
+    <p >Tours</p>
+         <p ><a href="lizensk.html">Lizensk</a></p>
+         <p ><a href="sanz.html">Sanz</a></p>
+         <p ><a href="kerestir.html">Kerestir</a></p>
+         <p ><a href="summer.html">Summer</a></p>  
+
+    </div>
+    <div class="col-sm-2">
+         <p>Private Tours</p>
+         <p><a href="vip-tours.html">VIP Tour</a></p>
+         <p><a href="private-groups.html">Private Groups</a></p>
+         <p><a href="family-tours.html">Family Tours</a></p>
+
+    </div>
+    <div class="col-sm-2">
+      <p>Company</p>
+         <p><a href="about.html">About Lalechet</a></p>
+         <p><a href="gallery.html">Gallery</a></p>
+         <p><a href="faq.html">FAQ</a></p>
+         <p><a href="contact.html">Contact</a></p>
+    </div>
+    <div class="col-sm-1">
+      <a  href="https://www.instagram.com/lalechettours?r=nametag"><img width="49" height="49"  src="img/insta.jpg"/></a>
+    </div>
+    <div class="col-sm-2">
+    	<p>Meals produced in our private kitchen are under the certification of:</p>
+    	<img width="157" height="123" src="img/logo1.png"/>
+      <a href="http://capitalc.co/"><p><span>Website by</span> Capital C</p></a>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+		<script src="js/parallax.js"></script>
+</body>
+</html>
